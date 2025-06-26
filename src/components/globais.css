@@ -1,0 +1,21 @@
+
+@tailwind utilities;
+
+:root{
+    --color-text: #ffffff;
+    --color-primary: #afffff;
+    --color-background: #000000;
+    --color-primary-contrast:#ffffff;
+
+}
+
+html,body{
+   @apply w-screen h-screen underline-offset-4;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+
+a{
+    @apply hover:underline active:opacity-50 transition-opacity
+}
