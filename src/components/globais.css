@@ -1,21 +1,21 @@
+@import "tailwindcss";
 
-@tailwind utilities;
 
-:root{
-    --color-text: #ffffff;
-    --color-primary: #afffff;
-    --color-background: #000000;
-    --color-primary-contrast:#ffffff;
-
-}
-
-html,body{
-   @apply w-screen h-screen underline-offset-4;
-  background-color: var(--color-background);
-  color: var(--color-text);
+:root {
+  --color-text: #ffffff;
+	--color-error: #980000;
+	--color-paper: #232323;
+	--color-primary: #009688;
+	--color-background: #000000;
+	--color-primary-contrast: #ffffff;
 }
 
 
-a{
-    @apply hover:underline active:opacity-50 transition-opacity
+html,
+body {
+  @apply bg-background text-text w-screen h-screen underline-offset-4;
+}
+
+a {
+	@apply hover:underline active:opacity-50 transition-opacity
 }
