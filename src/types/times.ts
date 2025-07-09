@@ -6,3 +6,7 @@ export interface Times{
     pais:string;
     gols:number;
 }
+
+ export interface mediaDeGols{
+mediaGols:string;
+}

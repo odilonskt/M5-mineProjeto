@@ -1,5 +1,5 @@
 import { Jogador } from "@/types/JogadoresResponse";
-import { Times } from "@/types/times";
+import {   mediaDeGols, Times } from "@/types/times";
 
 
 const API_BASE = 'https://m4-api-futebol.onrender.com';
@@ -31,4 +31,12 @@ export async function fethTimes():Promise<Times[]>{
 export async function fetchTimeById(id: number): Promise<Times> {
     const res = await fetch(`${API_BASE}/times/${id}`);
     return res.json();
+}
+
+export async function fechTimeByCal(): Promise<mediaDeGols> {
+    const res = await fetch(`${API_BASE}/times/cal/media`);
+    const result: mediaDeGols = await res.json();
+    console.log(await result);
+    return result;
+    
 }
