@@ -63,10 +63,7 @@ const JogadorDetailsPage =  async ({params}:{params: Promise<{id:string}>}) => {
                 </div>
               </div>
 
-              {/* <div className="mt-8">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">Estatísticas do Time</h2>
-                <StatsChart/>
-              </div> */}
+             
             </div>
           </div>
         </div>

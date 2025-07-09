@@ -14,7 +14,7 @@ const JogadoresPage = async () => {
   const timesMap = new Map(times.map(time => [time.id, time.nome]));
 
   return (
-    <div className="  min-h-screen  py-8 px-4 sm:px-6 lg:px-8 scroll-smooth md:scroll-auto ">
+    <div className=" bg-gradient-to-br from-blue-50 to-blue-100 min-h-screen  py-8 px-4 sm:px-6 lg:px-8 scroll-smooth md:scroll-auto ">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Jogadores de Futebol</h1>
