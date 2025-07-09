@@ -1,9 +1,12 @@
 import MediaGols from "@/components/cardMeiaGols/page";
 import TimeCard from "@/components/TimeCard/page";
 import { fethTimes } from "@/utils/api";
+import { Metadata } from "next";
 
 
-
+export const metadata: Metadata = {
+  title: "Times"
+};
 export default async function TimesPage(){
     const times = await fethTimes();
 
