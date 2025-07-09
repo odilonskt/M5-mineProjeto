@@ -1,6 +1,7 @@
+import MediaGols from "@/components/cardMeiaGols/page";
 import TimeCard from "@/components/TimeCard/page";
 import { fethTimes } from "@/utils/api";
-import Link from "next/link";
+
 
 
 export default async function TimesPage(){
@@ -15,17 +16,18 @@ export default async function TimesPage(){
         </h1>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {times.map((time) => (
-            <Link
+            <div
               key={time.id}
-              href={`/times/${time.id}`}
+            
               className="group"
               style={{ textDecoration: "none" }}
             >
               <TimeCard time={time} />
-            </Link>
+            </div>
           ))}
         </div>
       </div>
+      <MediaGols></MediaGols>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 'use client'
 import { Jogador } from "@/types/JogadoresResponse";
-import Link from 'next/link';
+
 import '../../app/globals.css'
 
 interface PlayerCardProps {
@@ -11,7 +11,7 @@ interface PlayerCardProps {
 
 export default function PlayerCard({ player, nomeTime, variant = 'default' }: PlayerCardProps) {
     return (
-        <Link href={`/jogadores/${player.id}`} passHref className="bg-gradient-to-br from-blue-50 to-blue-100 ">
+        <div   className="bg-gradient-to-br from-blue-50 to-blue-100 ">
             <div className={`bg-gradient-to-br text-black from-gray-50 to-gray-100 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all cursor-pointer ${variant === 'default' ? 'p-6' : 'p-4'}`}>
                 <div className="flex items-center space-x-4">
                     <div className="flex-shrink-0 bg-blue-500 text-white rounded-full flex items-center justify-center"
@@ -49,6 +49,6 @@ export default function PlayerCard({ player, nomeTime, variant = 'default' }: Pl
                     </div>
                 )}
             </div>
-        </Link>
+        </div>
     );
 }
