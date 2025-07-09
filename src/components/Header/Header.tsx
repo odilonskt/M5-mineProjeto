@@ -44,7 +44,7 @@ return(
   <FaGithub /></Link>
    </li>
          <li className="hidden sm:block">
-    <Link href='https://github.com/odilonskt/M5-mineProjeto' className="flex gap-1 items-center" target="_blank">Linkedin
+    <Link href='https://www.linkedin.com/in/odilon-dev/' className="flex gap-1 items-center" target="_blank">Linkedin
   <FaLinkedin /></Link>
         </li>
     </ul>
