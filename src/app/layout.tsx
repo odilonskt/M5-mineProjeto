@@ -27,6 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+            <head>
+        <link rel="icon" type="image/svg+xml" href="/bola_anos90.svg" />
+      
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
