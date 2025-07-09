@@ -13,12 +13,8 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
     title: `Jogador: ${jogador.nome}`,
   };
 }
-const JogadorDetailsPage =  async ({params}:{params: Promise<{id:string}>}) => {
-
-
-
- const {id} =  await params 
-  
+const JogadorDetailsPage =  async ({ params }: { params: { id: string } }) => {
+  const { id } = params;
   const player = await fetchJogador(parseInt(id));
 
   return (
