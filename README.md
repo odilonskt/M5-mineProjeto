@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚽ Projeto Front-End: Lista de Jogadores e Times
 
-## Getting Started
+[![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,typescript,react,vercel,github&perline=3)](https://skillicons.dev)
 
-First, run the development server:
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/odilon-de-campos-742a202a0/)
 
+## 🧩 Sobre o Projeto
+
+Este projeto é uma aplicação **Front-End** desenvolvida com **Next.js** e **TypeScript**, que consome uma **API REST** para exibir uma lista de **jogadores** e seus **respectivos times de futebol**.
+
+A aplicação apresenta uma interface moderna e responsiva, estilizada com **Tailwind CSS**. Este projeto foi desenvolvido como parte do **Módulo 5** da formação **Programadores do Amanhã**.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia   | Versão      |
+|--------------|-------------|
+| Next.js      | 15.3.3      |
+| React        | 18.2.0      |
+| TypeScript   | 5.x         |
+| Tailwind CSS | 3.4.1       |
+| Vercel       | Deploy      |
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+Siga os passos abaixo para rodar o projeto na sua máquina:
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repo.git
+   cd nome-do-repo
+
+ ## respositorio da API que foi ultilizada
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+https://github.com/odilonskt/M4-API-Futebol
